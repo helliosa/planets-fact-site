@@ -1,0 +1,43 @@
+h1 {
+  font-size: 80px;
+  line-height: 103px;
+  font-weight: medium;
+  font-family: 'Antonio';
+  margin-block-end: 30px;
+}
+
+h2 {
+  font-family: 'Antonio';
+  font-weight: medium;
+  font-size: 40px;
+  line-height: 52px;
+  word-spacing: -1.5px;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: bold;
+  word-spacing: 2.6px;
+}
+
+h4,
+li {
+  font-size: 11px;
+  font-weight: bold;
+  color: #838391;
+  text-transform: uppercase;
+}
+
+a {
+  color: #838391;
+  font-weight: bold;
+  background-image: url('assets/icon-source.svg');
+  background-position: 90px;
+  background-repeat: no-repeat;
+  padding-right: 25px;
+  
+}
+
+.link-source {
+  color: #38384F;
+}

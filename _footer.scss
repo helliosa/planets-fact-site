@@ -1,0 +1,18 @@
+footer {
+  display: flex;
+  padding: 0 165px;
+  margin: 60px 0;
+
+  div {
+    width: 25%;
+    border: 1px solid #979797;
+    text-align: left;
+    margin-inline-end: 30px;
+    padding: 23px 30px;
+  }
+
+  h2,
+  h4 {
+    margin: 0;
+  }
+}

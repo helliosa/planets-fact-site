@@ -1,0 +1,16 @@
+.planets-page {
+  padding: 0 165px;
+  display: flex;
+
+    .planet-img {
+      width: 65.3%;
+      align-self: center;
+      padding-left: 15%;
+      padding-top: 5%;
+    }
+
+    .planet-stats {
+      width: 30%;
+      margin-left: -15%;
+    }
+}

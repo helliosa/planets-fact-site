@@ -1,0 +1,33 @@
+button {
+  width: 350px;
+  height: 48px;
+  border: 1px solid #979797;
+  background-color: rgba($color: #fff, $alpha: 0);
+  color: #fff;
+  margin: 7.5px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: left;
+
+  &:active {
+    background-color: rgba(65, 158, 187, 100%);
+    border: 1px solid rgba(65, 158, 187, 100%);
+  }
+
+  &:hover {
+    background-color: #38384F;
+    border: 1px solid #38384F;
+  }
+
+  p {
+    display: inline;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+.button-numbers {
+  color: #838391;
+  width: 30px;
+  padding: 0 20px;
+}

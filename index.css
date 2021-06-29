@@ -1,0 +1,163 @@
+body {
+  background-image: url("assets/background-stars.svg");
+  background-color: #070724;
+  background-blend-mode: luminosity;
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "Spartan";
+  margin: 0;
+}
+
+.wikipedia-link {
+  display: flex;
+  margin-bottom: 30px;
+}
+.wikipedia-link p {
+  width: 20%;
+}
+.wikipedia-link a {
+  margin: 14px 0;
+}
+
+.planets-page {
+  padding: 0 165px;
+  display: flex;
+}
+.planets-page .planet-img {
+  width: 65.3%;
+  align-self: center;
+  padding-left: 15%;
+  padding-top: 5%;
+}
+.planets-page .planet-stats {
+  width: 30%;
+  margin-left: -15%;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 103px;
+  font-weight: medium;
+  font-family: "Antonio";
+  margin-block-end: 30px;
+}
+
+h2 {
+  font-family: "Antonio";
+  font-weight: medium;
+  font-size: 40px;
+  line-height: 52px;
+  word-spacing: -1.5px;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: bold;
+  word-spacing: 2.6px;
+}
+
+h4,
+li {
+  font-size: 11px;
+  font-weight: bold;
+  color: #838391;
+  text-transform: uppercase;
+}
+
+a {
+  color: #838391;
+  font-weight: bold;
+  background-image: url("assets/icon-source.svg");
+  background-position: 90px;
+  background-repeat: no-repeat;
+  padding-right: 25px;
+}
+
+.link-source {
+  color: #38384F;
+}
+
+.nav-bar {
+  display: flex;
+  border-bottom: 1px solid #979797;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-image: url("assets/background-stars.svg");
+  background-color: #070724;
+  background-blend-mode: luminosity;
+}
+.nav-bar h3 {
+  width: 56%;
+  font-size: 28px;
+  font-family: "Antonio";
+  margin: 0 0 0 20px;
+  padding-block-start: 40px;
+  text-transform: uppercase;
+}
+.nav-bar ul {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+.nav-bar li {
+  float: right;
+  color: #fff;
+  list-style-type: none;
+  padding: 42px 20px 17px;
+  border-top: 4px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+.nav-bar li:hover {
+  border-top: 4px solid #419EBB;
+}
+
+footer {
+  display: flex;
+  padding: 0 165px;
+  margin: 60px 0;
+}
+footer div {
+  width: 25%;
+  border: 1px solid #979797;
+  text-align: left;
+  margin-inline-end: 30px;
+  padding: 23px 30px;
+}
+footer h2,
+footer h4 {
+  margin: 0;
+}
+
+button {
+  width: 350px;
+  height: 48px;
+  border: 1px solid #979797;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  margin: 7.5px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: left;
+}
+button:active {
+  background-color: #419ebb;
+  border: 1px solid #419ebb;
+}
+button:hover {
+  background-color: #38384F;
+  border: 1px solid #38384F;
+}
+button p {
+  display: inline;
+  font-weight: bold;
+  margin: 0;
+}
+
+.button-numbers {
+  color: #838391;
+  width: 30px;
+  padding: 0 20px;
+}

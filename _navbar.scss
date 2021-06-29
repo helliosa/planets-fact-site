@@ -1,0 +1,39 @@
+.nav-bar {
+  display: flex;
+  border-bottom: 1px solid #979797;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-image: url('assets/background-stars.svg');
+  background-color: #070724;
+  background-blend-mode: luminosity;
+
+  h3 {
+    width: 56%;
+    font-size: 28px;
+    font-family: 'Antonio';
+    margin: 0 0 0 20px;
+    padding-block-start: 40px;
+    text-transform: uppercase;
+  }
+
+  ul {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  li {
+    float: right;
+    color: #fff;
+    list-style-type: none;
+    padding: 42px 20px 17px ;
+    border-top: 4px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+
+    &:hover {
+      border-top: 4px solid #419EBB;
+    }
+  }
+}
