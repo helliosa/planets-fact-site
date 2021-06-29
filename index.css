@@ -80,7 +80,7 @@ a {
 
 .nav-bar {
   display: flex;
-  border-bottom: 1px solid #979797;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.2);
   position: sticky;
   top: 0;
   left: 0;
@@ -104,7 +104,7 @@ a {
 }
 .nav-bar li {
   float: right;
-  color: #fff;
+  color: #838391;
   list-style-type: none;
   padding: 42px 20px 17px;
   border-top: 4px solid rgba(0, 0, 0, 0);
@@ -121,7 +121,7 @@ footer {
 }
 footer div {
   width: 25%;
-  border: 1px solid #979797;
+  border: 1px solid rgba(151, 151, 151, 0.2);
   text-align: left;
   margin-inline-end: 30px;
   padding: 23px 30px;
@@ -134,13 +134,14 @@ footer h4 {
 button {
   width: 350px;
   height: 48px;
-  border: 1px solid #979797;
+  border: 1px solid rgba(151, 151, 151, 0.2);
   background-color: rgba(255, 255, 255, 0);
   color: #fff;
   margin: 7.5px 0;
   cursor: pointer;
   text-transform: uppercase;
   text-align: left;
+  letter-spacing: 2.57px;
 }
 button:active {
   background-color: #419ebb;

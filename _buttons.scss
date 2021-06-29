@@ -1,13 +1,14 @@
 button {
   width: 350px;
   height: 48px;
-  border: 1px solid #979797;
+  border: 1px solid rgba(151, 151, 151, 0.2);
   background-color: rgba($color: #fff, $alpha: 0);
   color: #fff;
   margin: 7.5px 0;
   cursor: pointer;
   text-transform: uppercase;
   text-align: left;
+  letter-spacing: 2.57px;
 
   &:active {
     background-color: rgba(65, 158, 187, 100%);
