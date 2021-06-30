@@ -1,0 +1,1 @@
+let requestURL="./data.json",request=new XMLHttpRequest;request.open("GET",requestURL),request.responseType="json",request.send(),request.onload=function(){var e=request.response;console.log(e),console.log(e[0].overview.content)};
