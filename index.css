@@ -34,6 +34,9 @@ body {
   width: 30%;
   margin-left: -15%;
 }
+.planets-page .page-content {
+  height: 175px;
+}
 
 h1 {
   font-size: 80px;
@@ -129,6 +132,7 @@ footer div {
 footer h2,
 footer h4 {
   margin: 0;
+  text-transform: uppercase;
 }
 
 button {
