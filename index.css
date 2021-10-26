@@ -10,30 +10,41 @@ body {
 }
 
 .wikipedia-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 30px;
 }
+
 .wikipedia-link p {
   width: 20%;
 }
+
 .wikipedia-link a {
   margin: 14px 0;
 }
 
 .planets-page {
   padding: 0 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .planets-page .planet-img {
   width: 65.3%;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   padding-left: 15%;
   padding-top: 5%;
 }
+
 .planets-page .planet-stats {
   width: 30%;
   margin-left: -15%;
 }
+
 .planets-page .page-content {
   height: 175px;
 }
@@ -42,12 +53,13 @@ h1 {
   font-size: 80px;
   line-height: 103px;
   font-weight: medium;
-  font-family: "Antonio";
-  margin-block-end: 30px;
+  font-family: 'Antonio';
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
 }
 
 h2 {
-  font-family: "Antonio";
+  font-family: 'Antonio';
   font-weight: medium;
   font-size: 40px;
   line-height: 52px;
@@ -82,8 +94,11 @@ a {
 }
 
 .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -91,20 +106,30 @@ a {
   background-color: #070724;
   background-blend-mode: luminosity;
 }
+
 .nav-bar h3 {
   width: 56%;
   font-size: 28px;
-  font-family: "Antonio";
+  font-family: 'Antonio';
   margin: 0 0 0 20px;
-  padding-block-start: 40px;
+  -webkit-padding-before: 40px;
+          padding-block-start: 40px;
   text-transform: uppercase;
 }
+
 .nav-bar ul {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-top: 0;
 }
+
 .nav-bar li {
   float: right;
   color: #838391;
@@ -113,22 +138,28 @@ a {
   border-top: 4px solid rgba(0, 0, 0, 0);
   cursor: pointer;
 }
+
 .nav-bar li:hover {
   border-top: 4px solid #419EBB;
 }
 
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0 165px;
   margin: 60px 0;
 }
+
 footer div {
   width: 25%;
   border: 1px solid rgba(151, 151, 151, 0.2);
   text-align: left;
-  margin-inline-end: 30px;
+  -webkit-margin-end: 30px;
+          margin-inline-end: 30px;
   padding: 23px 30px;
 }
+
 footer h2,
 footer h4 {
   margin: 0;
@@ -147,14 +178,12 @@ button {
   text-align: left;
   letter-spacing: 2.57px;
 }
-button:active {
-  background-color: #419ebb;
-  border: 1px solid #419ebb;
-}
+
 button:hover {
-  background-color: #38384F;
-  border: 1px solid #38384F;
+  background-color: #38384f;
+  border: 1px solid #38384f;
 }
+
 button p {
   display: inline;
   font-weight: bold;
@@ -166,3 +195,18 @@ button p {
   width: 30px;
   padding: 0 20px;
 }
+
+.active {
+  background-color: #419ebb;
+  border: 1px solid #419ebb;
+}
+
+.active:hover {
+  background-color: #419ebb;
+  border: 1px solid #419ebb;
+}
+
+.active p.button-numbers {
+  color: #fff;
+}
+/*# sourceMappingURL=index.css.map */

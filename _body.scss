@@ -1,11 +1,11 @@
 body {
-  background-image: url('assets/background-stars.svg');
+  background-image: url("assets/background-stars.svg");
   background-color: #070724;
   background-blend-mode: luminosity;
   color: #fff;
   font-size: 14px;
   line-height: 25px;
-  font-family: 'Spartan';
+  font-family: "Spartan";
   margin: 0;
 }
 
@@ -13,7 +13,7 @@ body {
   display: flex;
   margin-bottom: 30px;
 
-  p{
+  p {
     width: 20%;
   }
 
